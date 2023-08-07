@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo and Properties</title>
+</head>
+<body>
+    <div class="content">
+        <h2>Easy Image Editor</h2>
+        <div class="propimage">
+            <div class="prop">
+                    <h3>Filters</h3>
+                    <div class="butfil">
+                        <button id="brightness">Brightness</button>
+                        <button id="saturation">Saturation</button>
+                        <button id="inversion">Inversion</button>
+                        <button id="grayscale">Grayscale</button>
+                    </div>
+                    <div class="ranprop">
+                        <div>
+                            <label id="prop">Choose</label>
+                            <label id="val">100</label>
+                        </div> 
+                        <input type="range" id="inpran" max="200" min="0"/>
+                    </div>
+                    <h3>Rotate</h3>
+                    <div class="butrot">
+                        <button id="stanga"> ← </button>
+                        <button id="dreapta"> → </button>
+                    </div>
+
+            </div>
+            <div id="imageee">
+                    
+            </div>
+        </div>
+        <div class="butjos">
+            <button id="resetfilt"> reset filters </button>
+            <div class="butdreapta">
+                <button id="chooseimage" onclick="selectimage">choose image</button>
+                <button id="saveimage">save image</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="index.js"> </script>
+</html>

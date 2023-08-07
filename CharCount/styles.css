@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 200px;
+    background-color: rosybrown;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 15px;
+    box-shadow: 2px  2px  3px rgba(0, 0,0, 0.5);
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#inp1{
+    width: 100%;
+    height: 80px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    border: solid 2px grey;
+
+}
+
+.totrem{
+    display:flex;
+    margin-top: 15px;
+    gap: 50px;
+}
+
+label{
+    color: grey;
+}
+
+#characters{
+    color: purple;
+}
+
+#remaining{
+    color: orange;
+}
