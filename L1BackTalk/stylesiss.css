@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: flex;
+    
+}
+
+.barastanga{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 55px;
+    background-color: grey;
+    height: 100vh;
+    padding: 25px 0;
+    position: fixed;
+}
+
+.semne{
+    margin-bottom: 3px;
+}
+
+.litere{
+    margin-top: 30px;
+    
+}
+
+.litera{
+    color: white;
+    margin-bottom: 8px;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    background-color: black;
+    
+}
+
+.litera-content {
+    transform: rotate(-45deg);
+    text-align: center;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+
+.contentdreapta{
+    padding-top: 25px;
+    margin-left: 2%;
+}
+
+.infobook{
+    padding-right: 50px;
+    margin-left: 45px;
+}
+
+.detbook{
+    padding-left: 45px;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.name{
+    display: flex;
+    font-size: 8px;
+    gap: 12px;
+}
+
+.sl , #nb {
+    color: grey;
+}
+
+#n3{
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+.und{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h3,#price{
+    margin-top: 12px;
+}
+
+#price{
+    font-size: 12px;
+}
+
+
+
+.butoane{
+    margin-top: 30px;
+    display: flex;
+   
+}
+
+.tbutcount{
+    display: flex;
+    width: 55px;
+    height: 35px;
+    justify-content: space-around;
+    align-items:center;
+    border: solid 1px grey;
+}
+
+#butrigh{
+    margin-left: 13px;
+    width: 260px;
+    height: 35px;
+    font-size: 11px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#minus , #plus{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#counter{
+    font-size: 11px;
+}
+
+#plus{
+    color: grey;
+}
+
+.textandfor{
+    margin-top: 60px;
+}
+
+.text{
+    font-size: 10px;
+    margin-top: 3px;
+    line-height: 1.5;
+}
+
+#imgbookpag{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+
+#left , #right{
+    position: absolute;
+    top:50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+#right{
+    right:1%;
+}
+
+#left{
+    left: 61%;
+}
+
+#foor {
+    margin-top: 10px;
+    font-size: 10px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.dopandsig{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dopa{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+#sigpress{
+    margin-top: 10px;
+}
+
+.psigpre{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.boldd{
+    font-weight: bold;
+}
+
+#sig{
+    font-size:20px;
+}
+
+#exp{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.pandexp{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+#Zdieľaj{
+    font-size: 12px;
+}
+
+
+.recbooks{
+    margin-left: 7%;
+    margin-top: 25px;
+}
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.itemsf{
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#left2,#right2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.imgrec{
+    width: 270px;
+    height: 400px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:    center;
+}
+
+.desc , .price{
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.rating {
+    margin-top: 60px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .star {
+    color:black;
+    cursor: pointer;
+  }
+  
+  .thingsthree{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 75px;
+    padding-top: 60px;
+    gap: 20px;
+    background-color:#bab2b1;
+    padding-bottom: 50px;
+  }
+
+  .imgthing{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
+  h2{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .pthing{
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 30px;
+  }
+

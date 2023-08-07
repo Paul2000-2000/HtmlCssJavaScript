@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.blackbar{
+    height: 60px;
+    background-color:  #000000;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bleft{
+    display: flex;
+    gap:10px;
+}
+
+#pleftp , #pleftu{
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+#sign{
+    width: 95px;
+    height: 35px;
+    font-size: 16px;
+    background-color: #4C5FD5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#sub{
+    width: 165px;
+    background-color:black;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.albasdesc{
+    height: 265px;
+    background-color:#dadbf1 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:17px;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+#inp1{
+    width: 480px;
+    height: 40px;
+    padding-left: 15px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+#sageata{
+    position: absolute;
+    top:225px;
+    color: black;
+    right:  415px;
+    font-weight: bold;
+}
+
+.things{
+    padding: 100px 160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+    grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+}
+
+.imginfo{
+    display: flex;
+    gap:15px;
+}
+
+
+
+.imgdiv{ 
+    width: 65px;
+    height:65px;
+    object-fit: cover;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 , .desc{
+    font-size: 17px;
+}
+
+.learn{
+    color: #4C5FD5;
+    font-size: 15px;
+}
+
+.lastbar{
+    padding: 40px 70px;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40%;
+}
+
+.infolast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 7px;
+}
+.pinfol{
+    font-size: 12px;
+    color: white;
+}
+
+h4{
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.infolast:nth-child(5){
+    margin-top: 100px;
+    align-items: flex-start;
+}
+
+#help{
+    width: 70px;
+    height: 30px;
+    background-color: #4C5FD5;
+    border-radius: 10px;
+    border: none;
+    color: wheat;
+    position:fixed;
+    right: 15px;
+    bottom: 15px;
+}
