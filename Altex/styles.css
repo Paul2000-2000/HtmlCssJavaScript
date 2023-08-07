@@ -1,0 +1,517 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: IBM Plex Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header, .bararosie, .da, .afterbannermare ,.pimgtxt ,.topoferte,.alteoferte,.promotii
+,.simplew,.legohua,.baraneagra,.intneggri,.grey,.butcheckb{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#banner{
+    width: 180px;
+    height: 80px;
+    object-fit: cover;
+}
+
+#search{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 10px;
+    color: grey;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+
+.stangahead , .dreaptahead{
+    display: flex;
+}
+
+.dreaptahead{
+    gap:25px;
+    padding-right: 1%;
+}
+
+.shop, .cont{
+    
+    text-align: center;
+    cursor: pointer;
+}
+
+.textshop, .textcont{
+    font-size: 12px;
+    
+}
+
+.bararosie{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: rgb(192 0 51);
+}
+
+.divbara,.divbarasp{
+    color: white;
+    font-size: 10px;
+    height: 35px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.divbarasp{
+    background-color: rgb(221 0 59);
+}
+
+.divbara{
+    border-right: 1px solid red;
+}
+
+.butcheckb{
+    position: absolute;
+    z-index: 1;
+    margin-left: 22%;
+    margin-top: 17%;
+}
+
+.butcheck{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.da{
+    height: 250px;
+}
+
+.psubfinantare{
+    cursor: pointer;
+}
+
+.subfinantare{
+    display: none;
+    flex-direction: column;
+      font-size: 9px;
+      width: 14.4%;
+      height: 20%;
+      padding-left: 1.5%;
+      margin-left: 20%;
+      gap: 8px;
+      border: solid 1px black;
+      padding-top: 1.5%;
+      border-bottom-left-radius: 5px;
+      position: absolute;
+      top: 18%;
+      background-color: white;
+      left: 9%;
+      z-index: 1; /* Ensure the subfinantare div appears above other elements */
+}
+
+.st,.dr{
+    position: absolute;
+    margin-top: 8%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.st{
+    margin-left: 2%;
+}
+
+.dr{
+    margin-left: 66%;
+}
+
+#banner2{
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.afterbannermare{
+    margin-top: 10px;
+    display: flex;
+}
+
+.imgimgtxt{
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.imgtxt{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pimgtxt{
+    margin-top: 5px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.topoferte{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.oferte, .ustensilaex , .obiectprom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 18.1%;
+    height: 300px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+
+.itemimg{
+    width: 100%;
+}
+
+.descriereitem {
+    font-size: 10px;
+}
+
+.descriereitem, .itemimg{
+    cursor: pointer;
+}
+
+.pret{
+    margin-top: 5px;
+    font-size: 12px;
+    color: red;
+}
+
+.butonitem{
+    font-size: 10px;
+    background-color: rgb(188 0 59);
+    color:white;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.alteoferte{
+
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246 246 246);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.ustensile{
+    display: flex;
+}
+
+.ustensila, .ustensilad{
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ustensila{
+    border-bottom: solid 1px grey;
+}
+
+.ustensilad{
+    border-bottom: solid 1px red;
+    color: red;
+}
+
+.ustensilaex{
+    margin-top: 30px;
+}
+
+.promotii{
+    margin-top: 40px;
+   
+}
+
+.simplew{
+    margin-top: 30px;
+    
+    margin-bottom: 30px;
+}
+
+#simpw{
+    object-fit: cover;
+    width: 100%;
+    cursor: pointer;
+}
+
+.legohua{
+    height: 20%;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.imglego{
+    height: 60%;
+    width: 48%;
+    cursor: pointer;
+}
+
+.inscriere{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1% 2%;
+    background-color: rgb(255 242 214);
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+ul{
+    margin-bottom: 5px;
+}
+
+li{
+    margin-top: 2px;
+    margin-left: 3%;
+    font-size: 9px;
+    list-style-type: square;
+}
+
+#inpins{
+    width: 28%;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: solid 1px red;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+#inpins::placeholder{
+    font-style: italic;
+}
+
+#butins{
+    height: 30px;
+    width: 12%;
+    font-size: 12px;
+    background-color: yellow;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.pinscmic{
+    margin-top: 10px;
+    font-size: 8px;
+}
+
+.baraneagra{
+    height: 70px;
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+}
+
+.baransta{
+    display: flex;
+    gap: 10px;
+    margin-right: 20%;
+}
+
+.barandr{
+    display: flex;
+    gap:10px;
+}
+
+.bbar{
+    width: 10%;
+    cursor: pointer;
+}
+
+.bbad{
+    width: 85px;
+    cursor: pointer;
+}
+
+.yst{
+    margin-top: 7px;
+    color: yellow;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.wst{
+    color: white;
+    font-size: 9px;
+}
+
+.intneggri{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: rgb(25 26 28);
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 12px;
+    color: rgb(97 99 106);
+    margin-bottom: 5px;
+}
+
+.linie{
+    width: 17%;
+    border-bottom: solid 1px yellow;
+    margin-bottom: 5px;
+}
+
+.pdivint{
+    font-size: 10px;
+    color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.pdivints{
+    font-size: 10px;
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fund{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.red{
+    color: red;
+}
+
+.und{
+    text-decoration: underline;
+}
+
+.grey{
+    background-color: rgb(42 45 48);
+   
+    display: flex;
+    height: 50px;
+    align-items: center;
+    
+}
+
+.greyst{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.greydr{
+    width: 40%;
+    text-align: right;
+}
+
+.pgreyst{
+    font-size: 7px;
+    color:rgb(139 140 146);
+}
+
+.imgf{
+    width: 35%;
+    cursor: pointer;
+}
+
+
+@media (max-width:912px)
+{
+    header, .da ,.bararosie, .topoferte ,.alteoferte ,.promotii ,.simplew ,.legohua ,.inscriere, .baraneagra,.intneggri,.grey{
+        padding-right: 5%;
+        padding-left: 5%;
+    } 
+
+    .item{
+        width: 18%;
+    }
+
+   .inscriere{
+    margin: 0 5%;
+    margin-bottom: 80px;
+   }
+
+   .st,.dr{
+    margin-top: 11%;
+   }
+
+   .dr{
+    margin-left: 85%;
+   }
+
+   .butcheckb{
+     top:40%;
+   }
+}
